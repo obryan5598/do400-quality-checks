@@ -4,9 +4,9 @@ import java.util.Random;
 
 public final class BasicCalculator extends Calculator {
 
+    private final Random randomService = new Random();
+    
     public int random() {
-        Random r = new Random();
-
         return r.nextInt();
     }
 }
